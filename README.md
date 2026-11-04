@@ -22,7 +22,7 @@ npm run preview    # serve dist/ on http://localhost:4173
 Node 20 or newer.
 
 ## Deploy
-Static site (hash routing, so no rewrite rule is needed). On Render, create a Static Site with build command `npm ci && npm run build` and publish directory `dist` (type it in lowercase), or use the Blueprint (`render.yaml`).
+Static site (hash routing, so no rewrite rule is needed). Hosting options: **GitHub Pages** (workflow in `.github/workflows/pages.yml`; in the repo go to Settings, Pages, Source: GitHub Actions) or Render (static site, build `npm ci && npm run build`, publish directory `dist` in lowercase, or the Blueprint `render.yaml`).
 
 ## Project layout
 - `src/data/pantry.ts` storage, validation, dates, backup and restore (single source of truth for data)
