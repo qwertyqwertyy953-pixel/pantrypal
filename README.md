@@ -22,7 +22,7 @@ npm run preview    # serve dist/ on http://localhost:4173
 Node 20 or newer.
 
 ## Deploy
-Static site. On Render, create a **Blueprint** from this repo (`render.yaml`), or a Static Site with build command `npm ci && npm run build` and publish directory `dist`, plus a rewrite `/*` to `/index.html` (single-page app).
+Static site (hash routing, so no rewrite rule is needed). On Render, create a Static Site with build command `npm ci && npm run build` and publish directory `dist` (type it in lowercase), or use the Blueprint (`render.yaml`).
 
 ## Project layout
 - `src/data/pantry.ts` storage, validation, dates, backup and restore (single source of truth for data)

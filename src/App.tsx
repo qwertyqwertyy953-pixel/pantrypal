@@ -12,6 +12,7 @@ import {
   useLocation,
   Router as WouterRouter,
 } from 'wouter';
+import { useHashLocation } from 'wouter/use-hash-location';
 
 function Router() {
   return (
@@ -37,7 +38,7 @@ function App() {
   return (
     <>
       <TooltipProvider>
-        <WouterRouter base={import.meta.env.BASE_URL.replace(/\/$/, '')}>
+        <WouterRouter hook={useHashLocation}>
           <Router />
         </WouterRouter>
         <Toaster />
