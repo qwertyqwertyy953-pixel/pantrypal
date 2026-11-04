@@ -19,3 +19,9 @@ Small local-first pantry app. Owner: PepSafe Studio, contact `contact@pepsafe.in
 1. Host it (Render static site via `render.yaml`) and put it behind a subdomain.
 2. Use it for a week with a few real people; fix what they hit.
 3. Only then consider accounts and household sync (needs a backend such as Supabase; keys go in environment settings).
+
+## Working with the owner: do it yourself first (owner decision, 4 Nov)
+- For any problem, offer several solutions. Option **1** is always what you can do **yourself**, without the owner (code, repo, scripts, a workaround in code, a different route than planned), and **do it right away**.
+- Send the owner only what you cannot do (accounts, clicks in dashboards, keys, payments, uploading files).
+- The owner is usually on a **phone**: short, one step at a time, no options that need a computer when another route exists. Do not ask when you can decide.
+- Why: twice (PantryPal deploy, subpage routing) the problem was solved in code with no dashboard clicks.
