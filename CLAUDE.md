@@ -25,3 +25,10 @@ Small local-first pantry app. Owner: PepSafe Studio, contact `contact@pepsafe.in
 - Send the owner only what you cannot do (accounts, clicks in dashboards, keys, payments, uploading files).
 - The owner is usually on a **phone**: short, one step at a time, no options that need a computer when another route exists. Do not ask when you can decide.
 - Why: twice (PantryPal deploy, subpage routing) the problem was solved in code with no dashboard clicks.
+
+## Jakość: sprawdzone przed oddaniem, zero „nie sprawdziłem” (decyzja właściciela 7.11)
+- Właściciel buduje nową markę i ma zlecenia. Produkt niesprawny albo niedokończony kosztuje go klientów i zaufanie. **Nigdy nie oddawaj pracy, której nie przetestowałeś.** Zdanie „nie sprawdziłem, bo…” w raporcie jest porażką, nie wyjaśnieniem.
+- **Przed oddaniem zawsze sam sprawdź w praktyce:** strony i aplikacje w prawdziwej przeglądarce (Playwright, telefon 390 px i komputer 1280 px, tryb ciemny, bez błędów w konsoli, bez przewijania w poziomie, kliknij każdy przycisk, zakładkę, formularz i link, także animacje i przejścia). Filmy: arkusz klatek i odsłuch długości. Posty: `getScheduledPosts` po zaplanowaniu. Skrypty: uruchom na prawdziwych danych. Zmianę w kodzie: build, typy i testy repo.
+- Nie wystarczy „kod wygląda dobrze” ani test samej logiki. Obejrzyj wynik oczami użytkownika (zrzuty ekranu) i napraw każdą wadę przed oddaniem.
+- Gdy czegoś naprawdę nie da się sprawdzić (np. wymaga konta lub urządzenia właściciela), znajdź własny sposób (symulacja, inny przeglądarkowy test, zapasowy kanał). Dopiero gdy to niemożliwe, napisz **jedno zdanie**, czego dokładnie nie sprawdzono i dlaczego tylko właściciel może to zrobić. Nie oddawaj tego jako gotowego.
+- W raporcie podawaj, **co sprawdziłeś i z jakim wynikiem**, a nie listę rzeczy niesprawdzonych. Praca niedokończona jest dokończona przed oddaniem albo wprost nazwana „w toku” z terminem.
